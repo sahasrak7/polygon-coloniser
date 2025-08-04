@@ -41,6 +41,7 @@ test images and color prompts were fed into the model to observe if it generated
 colorized outputs or not.
 
 Conclusion
+
 With this project, I was able not only to understand conditional image generation methods but
 also to make practical use of this technique. The Conditional UNet was very effective in learning
 the relationship between grayscale shape structures and text color prompts and then producing
