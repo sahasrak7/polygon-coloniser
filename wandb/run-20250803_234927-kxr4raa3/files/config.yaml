@@ -1,0 +1,58 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            h8jew70vjej4txkz7ea7ua3blpodgy1x:
+                codePath: U_Net-Assignment\ayna_ml_assignment\scripts\train.py
+                codePathLocal: scripts\train.py
+                cpu_count: 10
+                cpu_count_logical: 12
+                disk:
+                    /:
+                        total: "1023000178688"
+                        used: "692326723584"
+                email: sahasrakommera@gmail.com
+                executable: C:\Users\bhara\anaconda3\python.exe
+                git:
+                    commit: 0b31f423c6bc64863613d9dd451c083116da056d
+                    remote: https://github.com/bharathgaddam1712/Test_Analyses.git
+                host: BoricAcid
+                memory:
+                    total: "16858472448"
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\bhara\OneDrive\Desktop\U_Net-Assignment\ayna_ml_assignment\scripts\train.py
+                python: CPython 3.11.9
+                root: C:\Users\bhara\OneDrive\Desktop\U_Net-Assignment\ayna_ml_assignment
+                startedAt: "2025-08-03T18:19:27.951519Z"
+                writerId: h8jew70vjej4txkz7ea7ua3blpodgy1x
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 41
+                - 105
+            "2":
+                - 1
+                - 41
+                - 105
+            "3":
+                - 16
+            "4": 3.11.9
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+batch_size:
+    value: 16
+device:
+    value: cpu
+epochs:
+    value: 50
+learning_rate:
+    value: 0.001
+model:
+    value: UNet
+transforms:
+    value: PyTorch

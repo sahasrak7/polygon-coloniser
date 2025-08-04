@@ -1,0 +1,12 @@
+Training dataset size: 56
+Validation dataset size: 5
+Testing data loading...
+Input image shape: torch.Size([16, 1, 103, 103])
+Color index shape: torch.Size([16])
+Target image shape: torch.Size([16, 3, 103, 103])
+Data loading test successful!
+Traceback (most recent call last):
+  File "C:\Users\bhara\OneDrive\Desktop\U_Net-Assignment\ayna_ml_assignment\scripts\train.py", line 108, in <module>
+    scheduler = optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=5, verbose=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ReduceLROnPlateau.__init__() got an unexpected keyword argument 'verbose'

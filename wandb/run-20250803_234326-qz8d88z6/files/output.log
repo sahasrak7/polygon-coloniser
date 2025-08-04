@@ -1,0 +1,39 @@
+Warning: Input image diamond.png has size torch.Size([1, 87, 87]), expected [C, 103, 103]
+Warning: Output image cyan_diamond.png has size torch.Size([3, 87, 87]), expected [C, 103, 103]
+Warning: Input image diamond.png has size torch.Size([1, 105, 105]), expected [C, 103, 103]
+Warning: Output image magenta_diamond.png has size torch.Size([3, 105, 105]), expected [C, 103, 103]
+Warning: Input image star.png has size torch.Size([1, 109, 109]), expected [C, 103, 103]
+Warning: Output image green_star.png has size torch.Size([3, 109, 109]), expected [C, 103, 103]
+Warning: Input image octagon.png has size torch.Size([1, 95, 95]), expected [C, 103, 103]
+Warning: Output image purple_octagon.png has size torch.Size([3, 95, 95]), expected [C, 103, 103]
+Warning: Input image hexagon.png has size torch.Size([1, 111, 111]), expected [C, 103, 103]
+Warning: Output image blue_hexagon.png has size torch.Size([3, 111, 111]), expected [C, 103, 103]
+Warning: Input image pentagon.png has size torch.Size([1, 98, 98]), expected [C, 103, 103]
+Warning: Output image purple_pentagon.png has size torch.Size([3, 98, 98]), expected [C, 103, 103]
+Traceback (most recent call last):
+  File "C:\Users\bhara\OneDrive\Desktop\U_Net-Assignment\ayna_ml_assignment\scripts\train.py", line 40, in <module>
+    for batch_idx, (input_img, color_idx, target_img) in enumerate(train_loader):
+  File "C:\Users\bhara\anaconda3\Lib\site-packages\torch\utils\data\dataloader.py", line 733, in __next__
+    data = self._next_data()
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\bhara\anaconda3\Lib\site-packages\torch\utils\data\dataloader.py", line 789, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bhara\anaconda3\Lib\site-packages\torch\utils\data\_utils\fetch.py", line 55, in fetch
+    return self.collate_fn(data)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bhara\anaconda3\Lib\site-packages\torch\utils\data\_utils\collate.py", line 398, in default_collate
+    return collate(batch, collate_fn_map=default_collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bhara\anaconda3\Lib\site-packages\torch\utils\data\_utils\collate.py", line 211, in collate
+    return [
+           ^
+  File "C:\Users\bhara\anaconda3\Lib\site-packages\torch\utils\data\_utils\collate.py", line 212, in <listcomp>
+    collate(samples, collate_fn_map=collate_fn_map)
+  File "C:\Users\bhara\anaconda3\Lib\site-packages\torch\utils\data\_utils\collate.py", line 155, in collate
+    return collate_fn_map[elem_type](batch, collate_fn_map=collate_fn_map)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bhara\anaconda3\Lib\site-packages\torch\utils\data\_utils\collate.py", line 272, in collate_tensor_fn
+    return torch.stack(batch, 0, out=out)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: stack expects each tensor to be equal size, but got [1, 103, 103] at entry 0 and [1, 87, 87] at entry 1

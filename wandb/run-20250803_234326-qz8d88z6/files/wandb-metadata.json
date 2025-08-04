@@ -1,0 +1,27 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.9",
+  "startedAt": "2025-08-03T18:13:26.312446Z",
+  "program": "C:\\Users\\bhara\\OneDrive\\Desktop\\U_Net-Assignment\\ayna_ml_assignment\\scripts\\train.py",
+  "codePath": "U_Net-Assignment\\ayna_ml_assignment\\scripts\\train.py",
+  "codePathLocal": "scripts\\train.py",
+  "git": {
+    "remote": "https://github.com/bharathgaddam1712/Test_Analyses.git",
+    "commit": "0b31f423c6bc64863613d9dd451c083116da056d"
+  },
+  "root": "C:\\Users\\bhara\\OneDrive\\Desktop\\U_Net-Assignment\\ayna_ml_assignment",
+  "host": "BoricAcid",
+  "executable": "C:\\Users\\bhara\\anaconda3\\python.exe",
+  "cpu_count": 10,
+  "cpu_count_logical": 12,
+  "disk": {
+    "/": {
+      "total": "1023000178688",
+      "used": "692306309120"
+    }
+  },
+  "memory": {
+    "total": "16858472448"
+  },
+  "writerId": "q78bct9ptlw4r0tr3hni35020qb1u1r9"
+}

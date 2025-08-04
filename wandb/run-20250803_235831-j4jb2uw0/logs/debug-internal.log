@@ -1,0 +1,16 @@
+{"time":"2025-08-03T23:58:31.5652282+05:30","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-03T23:58:45.1929579+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": unexpected EOF"}
+{"time":"2025-08-03T23:59:02.5726175+05:30","level":"INFO","msg":"stream: created new stream","id":"j4jb2uw0"}
+{"time":"2025-08-03T23:59:02.5726175+05:30","level":"INFO","msg":"stream: started","id":"j4jb2uw0"}
+{"time":"2025-08-03T23:59:02.5726175+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"j4jb2uw0"}
+{"time":"2025-08-03T23:59:02.5733375+05:30","level":"INFO","msg":"handler: started","stream_id":"j4jb2uw0"}
+{"time":"2025-08-03T23:59:02.5733375+05:30","level":"INFO","msg":"sender: started","stream_id":"j4jb2uw0"}
+{"time":"2025-08-04T00:03:48.031715+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sahasrakommera-mahindra-university/ayna_ml_assignment/j4jb2uw0/file_stream\": read tcp 192.168.8.33:51452->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-08-04T00:06:10.7464438+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sahasrakommera-mahindra-university/ayna_ml_assignment/j4jb2uw0/file_stream\": EOF"}
+{"time":"2025-08-04T00:06:33.1504532+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/sahasrakommera-mahindra-university/ayna_ml_assignment/j4jb2uw0/file_stream\": EOF"}
+{"time":"2025-08-04T00:29:24.2374701+05:30","level":"INFO","msg":"stream: closing","id":"j4jb2uw0"}
+{"time":"2025-08-04T00:29:27.1564786+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-04T00:29:28.0261281+05:30","level":"INFO","msg":"handler: closed","stream_id":"j4jb2uw0"}
+{"time":"2025-08-04T00:29:28.0261281+05:30","level":"INFO","msg":"sender: closed","stream_id":"j4jb2uw0"}
+{"time":"2025-08-04T00:29:28.0261281+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"j4jb2uw0"}
+{"time":"2025-08-04T00:29:28.0266842+05:30","level":"INFO","msg":"stream: closed","id":"j4jb2uw0"}
